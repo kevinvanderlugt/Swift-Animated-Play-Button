@@ -11,19 +11,8 @@
 		92482EEC1A66A8570027D79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92482EEB1A66A8570027D79B /* ViewController.swift */; };
 		92482EEF1A66A8570027D79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92482EED1A66A8570027D79B /* Main.storyboard */; };
 		92482EF11A66A8570027D79B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92482EF01A66A8570027D79B /* Images.xcassets */; };
-		92482F001A66A8570027D79B /* Animated_Play_Button_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92482EFF1A66A8570027D79B /* Animated_Play_Button_ExampleTests.swift */; };
 		92482F0C1A66A9F40027D79B /* AnimatedStartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92482F0B1A66A9F40027D79B /* AnimatedStartButton.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		92482EFA1A66A8570027D79B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92482EDC1A66A8570027D79B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92482EE31A66A8570027D79B;
-			remoteInfo = "Animated Play Button Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		92482EE41A66A8570027D79B /* Animated Play Button Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Play Button Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,21 +21,11 @@
 		92482EEB1A66A8570027D79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92482EEE1A66A8570027D79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92482EF01A66A8570027D79B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		92482EF91A66A8570027D79B /* Animated Play Button ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Play Button ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92482EFE1A66A8570027D79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92482EFF1A66A8570027D79B /* Animated_Play_Button_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Play_Button_ExampleTests.swift; sourceTree = "<group>"; };
 		92482F0B1A66A9F40027D79B /* AnimatedStartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedStartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		92482EE11A66A8570027D79B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92482EF61A66A8570027D79B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				92482EE61A66A8570027D79B /* Animated Play Button Example */,
-				92482EFC1A66A8570027D79B /* Animated Play Button ExampleTests */,
 				92482EE51A66A8570027D79B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				92482EE41A66A8570027D79B /* Animated Play Button Example.app */,
-				92482EF91A66A8570027D79B /* Animated Play Button ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92482EFC1A66A8570027D79B /* Animated Play Button ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				92482EFF1A66A8570027D79B /* Animated_Play_Button_ExampleTests.swift */,
-				92482EFD1A66A8570027D79B /* Supporting Files */,
-			);
-			path = "Animated Play Button ExampleTests";
-			sourceTree = "<group>";
-		};
-		92482EFD1A66A8570027D79B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				92482EFE1A66A8570027D79B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 92482EE41A66A8570027D79B /* Animated Play Button Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92482EF81A66A8570027D79B /* Animated Play Button ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92482F061A66A8570027D79B /* Build configuration list for PBXNativeTarget "Animated Play Button ExampleTests" */;
-			buildPhases = (
-				92482EF51A66A8570027D79B /* Sources */,
-				92482EF61A66A8570027D79B /* Frameworks */,
-				92482EF71A66A8570027D79B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92482EFB1A66A8570027D79B /* PBXTargetDependency */,
-			);
-			name = "Animated Play Button ExampleTests";
-			productName = "Animated Play Button ExampleTests";
-			productReference = 92482EF91A66A8570027D79B /* Animated Play Button ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					92482EE31A66A8570027D79B = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					92482EF81A66A8570027D79B = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 92482EE31A66A8570027D79B;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				92482EE31A66A8570027D79B /* Animated Play Button Example */,
-				92482EF81A66A8570027D79B /* Animated Play Button ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,13 +131,6 @@
 			files = (
 				92482EEF1A66A8570027D79B /* Main.storyboard in Resources */,
 				92482EF11A66A8570027D79B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92482EF71A66A8570027D79B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92482EF51A66A8570027D79B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92482F001A66A8570027D79B /* Animated_Play_Button_ExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92482EFB1A66A8570027D79B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92482EE31A66A8570027D79B /* Animated Play Button Example */;
-			targetProxy = 92482EFA1A66A8570027D79B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92482EED1A66A8570027D79B /* Main.storyboard */ = {
@@ -346,40 +260,6 @@
 			};
 			name = Release;
 		};
-		92482F071A66A8570027D79B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Animated Play Button ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Play Button Example.app/Animated Play Button Example";
-			};
-			name = Debug;
-		};
-		92482F081A66A8570027D79B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Animated Play Button ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Play Button Example.app/Animated Play Button Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,15 +277,6 @@
 			buildConfigurations = (
 				92482F041A66A8570027D79B /* Debug */,
 				92482F051A66A8570027D79B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92482F061A66A8570027D79B /* Build configuration list for PBXNativeTarget "Animated Play Button ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92482F071A66A8570027D79B /* Debug */,
-				92482F081A66A8570027D79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
